@@ -37,6 +37,10 @@ Country:
 <br/><br/>
 Player Characteristics:
 <form:checkboxes items="${character}" path="playerCharacter"/> 
+<form:errors path="playerCharacter" class="cssError"/>
+<br/><br/>
+Email: <form:input path="email"/>
+<form:errors path="email" class="cssError"/>
 <br/><br/>
 <input type="submit" value="submit" />
 </form:form>

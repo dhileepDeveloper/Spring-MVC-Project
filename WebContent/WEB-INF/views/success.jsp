@@ -22,5 +22,7 @@ success: Character:
 	<c:out value = "${character}"/>
 </c:forEach>
 <br/>
+success: Email: ${superPlayer.email}
+<br/>
 </body>
 </html>

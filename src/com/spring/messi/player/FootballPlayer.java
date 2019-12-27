@@ -6,8 +6,11 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
+import com.spring.messi.validation.IsValidEmail;
+import com.spring.messi.validation.TwoFieldMust;
+
 public class FootballPlayer {
-	
+	//just for github
 	@NotNull(message="First Name should not be empty")
 	@Size(min=4,max=15,message="Please enter a valid name")
 	private String firstName;
@@ -17,8 +20,20 @@ public class FootballPlayer {
 
 	private String country;
 	
+	@IsValidEmail
+	private String email;
+	
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
 	private LinkedHashMap<String,String> countryMap = new LinkedHashMap<String,String>();
 	
+	@TwoFieldMust
 	private String[] playerCharacter;
 	
 	public String[] getPlayerCharacter() {
