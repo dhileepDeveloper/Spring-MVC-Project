@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SampleBean {
 
+//This is git review
 	@Value("${sql.username}") 
 	private String userName;
 	
