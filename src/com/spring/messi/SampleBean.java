@@ -26,6 +26,7 @@ public class SampleBean {
 		this.userName = userName;
 	}
 
+	//line 29 raja	
 	public String getPassword() {
 		return password;
 	}
