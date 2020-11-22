@@ -2,9 +2,13 @@ package com.spring.messi;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
+<<<<<<< Updated upstream
 
 //Tis is dhileep change 
+=======
+>>>>>>> Stashed changes
 @Component
+//This is Raja Change
 public class SampleBean {
 
 //This is git review
