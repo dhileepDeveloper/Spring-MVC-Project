@@ -39,6 +39,7 @@ public class FootballController {
 	public String startPage()
 	{
 		System.out.println("This is for Rajendran Change for Git");
+		System.out.println("This is for git change"); 
 		System.out.println("Username : " + sampleBean.getUserName());
 		System.out.println("CharacterMap : " + characterMap);
 		return "footballHome";
